@@ -1,0 +1,71 @@
+body{
+  overflow: hidden;
+  background: radial-gradient(#4d4c4c,20%, #121212);body{background: radial-gradient(#4d4c4c,20%, #121212); center center no-repeat; background-size:cover; margin:0px;}
+}
+
+.game{
+  top: 600px;
+  width: 600px;
+  height: 200px;
+  border-bottom: 1px solid black;
+  margin: auto;
+  background-image: url("img/фон5.jpg")
+}
+#dino{
+  width: 60px;
+  height: 60px;
+  background-image: url(img/she.png);
+  background-size: 60px 60px;
+  position:relative;
+  top:145px;
+}
+#cactus {
+  width: 50px;
+  height: 50px;
+  background-image: url(img/pi.png);
+  background-size: 50px 50px;
+  position: relative;
+  top: 100px;
+  left: 560px;
+  animation: cactusMov 1.5s infinite linear;
+}
+@keyframes cactusMov {
+  0%{
+    left: 580px;
+  }
+  100%{
+    left: -20px;
+  }
+}
+.jump{
+  animation: jump 0.5s linear;
+}
+@keyframes jump{
+  0%{
+    top: 120px;
+  }
+  30%{
+    top: 100px;
+  }
+  50%{
+    top: 80px;
+  }
+  80%{
+    top: 100px;
+  }
+  100%{
+    top: 120px;
+  }
+}
+.image{
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  bottom: 5%;
+  right: 0;
+  text-align: right;
+}
+.image img{
+  height: 100%;
+}
+h1{color: #e3e1e1; font-size:60px; font-family: 'Zen Dots', cursive; background:#3338;}

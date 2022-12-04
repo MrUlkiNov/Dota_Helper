@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Creepster&family=Great+Vibes&family=Italianno&family=Merienda&family=Mr+Dafoe&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Creepster&family=Great+Vibes&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Creepster&family=Great+Vibes&family=Italianno&family=Merienda&family=Mr+Dafoe&family=Permanent+Marker&family=Zen+Dots&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <section class ="hero">
+    <div class="main-width">
+      <header>
+        <div class ="logo">
+          <h2><a href="#">DOTA_HELPER</a></h2>
+        </div>
+        <nav>
+          <ul>
+            <li class="active"><a href="Glava.html">Главная</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Чат</a></li>
+            <li class ="btn"><a href="#">Загрузить</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="main-text">
+          <h3>Steam</h3>
+          <h1>DOTA 2</h1>
+          <p>Каждый день миллионы игроков по всему миру вступают в командную битву 5 на 5 в роли одного из более чем сотни героев. Dota — глубочайшая многопользовательская стратегия всех времён, в которой всегда найдётся место новой стратегии или тактике. Она совершенно бесплатна, и это не поменяется — начинайте защищать своего Древнего уже сейчас.</p>
+          <a href="#">Играть сейчас</a>
+          <a href="#" class="cta"><i class="fa-solid fa-play"></i>Смотреть геймплей</a>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-windows"></i></a>
+          <a href="#"><i class="fa-brands fa-apple"></i></a>
+          <a href="#"><i class="fa-solid fa-n"></i></a>
+          <a href="#"><i class="fa-brands fa-android"></i></a>
+          <a href="#"><i class="fa-brands fa-playstation"></i></a>
+          <a href="#"><i class="fa-brands fa-xbox"></i></a>
+      </div>
+      <div class ="image">
+        <img src="img/pu.png">
+      </div>
+    </div>
+  </section>
+</body>
+
+<style>
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Zen Dots', cursive;
+
+}
+body{
+  overflow: hidden;
+}
+.main-width{
+  width: 1400px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.hero{
+
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(#4d4c4c,20%, #121212);
+  position: relative;
+}
+.hero header .logo h2 a{
+  display:block;
+  font-size:32px;
+  font-weight:600;
+  text-decoration: none;
+  color:white;
+}
+.hero header{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 40px 0 30px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  margin-left: 60px;
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: .4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+  border-bottom: 2px solid white;
+}
+nav ul li.active a{
+  border-bottom: 2px solid white;
+}
+nav ul li.btn a{
+  background: transparent;
+  color: white;
+  border: 1px solid #f5dca8;
+  padding: 9px 20px;
+  border-radius: 30px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 150px;
+}
+nav ul li.btn:hover a{
+  border: 1px solid white;
+  color: black;
+  background: white;
+  transition: .4s;
+}
+.content{
+  padding-top: 140px;
+}
+.content .main-text{
+  position: relative;
+  z-index: 2;
+  margin-bottom: 50px;
+}
+.content .main-text h1{
+  font-size: 100px;
+  line-height: 1;
+  color: white;
+  margin: 0px 0px 45px;
+  font-family: 'Zen Dots', cursive;
+}
+.content .main-text h3{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.content .main-text p{
+  max-width: 100%;
+  width: 480px;
+  color: white;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 50px;
+  font-family: 'Zen Dots', cursive;
+}
+.content .main-text a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background: white;
+  border: 1px solid white;
+  padding: 9px 25px;
+  line-height: 1.4;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.content .main-text a:hover{
+  transform: scale(1.2);
+  border: 1px solid #f5dca8;
+  background: transparent;
+  color:white;
+  transition: .4s;
+}
+.content .main-text a.cta{
+  border: 1px solid #f5dca8;
+  color:white;
+  background: transparent;
+  margin-left: 20px;
+}
+.content .main-text a.cta i{
+  margin-right: 12px;
+}
+.content .main-text a.cta:hover{
+  color: black;
+  background: white;
+  border: 1px solid white;
+  transition: .4s;
+}
+.content .social a{
+  position: relative;
+  z-index: 2;
+  margin-top: 200px;
+  padding-bottom: 40px;
+}
+.content .social a{
+  display: inline-block;
+  color: #f5dcac;
+  margin-right: 25px;
+  font-size: 24px;
+}
+.content .social a:hover{
+  transform: scale(1.2);
+  transition: .4s;
+  color: white;
+}
+.image{
+  position: absolute;
+  width: 100%;
+  height: 85%;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+.image img{
+  height: 100%;
+}
+</style>
+</html>
